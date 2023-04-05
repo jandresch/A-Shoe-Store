@@ -16,6 +16,11 @@ html{
     font-family: 'Poppins', sans-serif;
 }
 
-body{
+.login-view{
+    width: 100%;
+    height: 100vh;
+    padding: 16px;
+    display: grid;
+    place-content: center;
     background-color: var(--color-4);
 }
