@@ -22,18 +22,25 @@
             </div>
             <fieldset class="login-form__container">
                 <legend>User Login</legend>
-                <input type="text" name="username" id="" placeholder="Username or email" required>
-                <input type="password" name="" id="password" placeholder="Password" required>
+                <input 
+                    class="input-text"
+                    type="text" 
+                    name="username" 
+                    id="" 
+                    placeholder="Username or email" 
+                    required
+                    >
+                <input class="input-text" type="password" name="" id="password" placeholder="Password" required>
                 <div class="form-password__section">
                     <p class="form-remember__btn">
                         <input type="checkbox" name="remember" id="remember">
                         <label for="remember">Remember me</label>
                     </p>
                     <p class="form-forgot-password">
-                        <a href="./">Forgot password?</a>
+                        <a href="./pages/main.html">Forgot password?</a>
                     </p>
                 </div>
-                <button class="form__btn">Login</button>
+                <button id="login" class="form__btn" href="./pages/main.html">Login</button>
             </fieldset>
         </form>
     </section>

@@ -113,6 +113,12 @@ h2{
     color: var(--color-6);
 }
 
+.login-form__container .input-text:valid{
+    color: var(--color-1);
+}
+.login-form__container .input-text:invalid{
+    color: var(--color-3);
+}
 .form-password__section{
     width: 100%;
     height: auto;
